@@ -17,6 +17,9 @@
     ],
     "require": {
         "php": "^7.3|^8.0",
+        "graham-campbell/github": "^10.1",
+        "guzzlehttp/guzzle": "^7.2",
+        "http-interop/http-factory-guzzle": "^1.0",
         "laravel-zero/framework": "^8.4"
     },
     "require-dev": {
@@ -40,5 +43,5 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "bin": ["application"]
+    "bin": ["candidate"]
 }
